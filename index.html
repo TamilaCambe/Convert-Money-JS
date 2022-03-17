@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title> Convert Money </title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1> Convert Money </h1>
+        </header>
+        <!-- A tag "main" é só para deixar o seu código mais semântico e organizado, ele indica qual é a área principal e não o conteúdo. Você pode incluir uma section para o "sobre" e outra para o "form" dentro do main sem problema algum. -->
+        <main>
+            <label> Converter <b> de </b>
+    <select>
+        <option>
+         R$ Real Brasileiro 
+        </option>
+    </select>
+</label>
+
+            <label> Converter <b> para </b>
+    <select id="currency-select">
+        <option>
+         US$ Dólar Americano 
+        </option>
+        <option>
+            € Euro
+        </option>
+        <option>
+            ₿ Bitcoin
+        </option>
+    </select>
+</label>
+
+            <label> <b> Valor </b>
+    <input id="input-real" placeholder="R$ 10.000,00">
+</label>
+
+            <button id="convert-button" type="button"> Converter </button>
+
+            <section>
+                <div>
+                    <img src="./assets/brasil 2.png" alt="bandeira-Brazil">
+                    <p class="currency-name"> Real </p>
+                    <p class="currency-value" id="real-value-text"> R$ 0,00 </p>
+                </div>
+                <img src="./assets/Vector.png" alt="seta" class="arrow">
+
+                <div>
+                    <img src="./assets/estados-unidos (1) 1.png" id="currency-img" alt="bandeira-EUA">
+                    <p class="currency-name" id="currency-name"> Dólar Americano </p>
+                    <p class="currency-value" id="currency-value-text"> US$ 0,00 </p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+
+<script src="./scripts.js">
+</script>
+
+</html>

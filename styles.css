@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-style: normal;
+    line-height: 18px;
+}
+
+body {
+    background: linear-gradient(#4B0082, #20B2AA);
+}
+
+.container {
+    background-color: #F4F4F4;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header {
+    background-color: #20B2AA;
+    width: 375px;
+    height: 66px;
+}
+
+h1 {
+    color: #F4F4F4;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-size: 14px;
+    color: #777777
+}
+
+select {
+    background-color: #FFFFFF;
+    Width: 327px;
+    Height: 48px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    /* PRA TIRAR A SETINHA QUE FICA NA CAIXINHA SELECT */
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    /*sobrinha ao redor*/
+    margin-top: 6px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #555555;
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    padding: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    outline: none;
+    /* pra quando clicar na caixa, não ficar uma borda mais escura nem de alguma cor */
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    background-color: #20B2AA;
+    border: none;
+    border-radius: 25px;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    color: #F4F4F4;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+    /* quando passa o mouse fica mais claro, dá uma transparência */
+}
+
+button:active {
+    opacity: 0.7;
+    /* quando clica fica mais claro, dá uma transparência */
+}
+
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    width: 327px;
+    height: 276px;
+    text-align: center;
+    padding-top: 12px;
+    display: block;
+}
+
+.value {
+    color: #1B83E2;
+    font-size: 20px;
+    padding-top: 2px;
+    font-weight: bold;
+    /* fica negrito */
+}
+
+.arrow {
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+
+.paragraph {
+    font-size: 14px;
+    color: #777777;
+}
