@@ -130,3 +130,9 @@ div {
     font-size: 14px;
     color: #777777;
 }
+
+@media (max-width: 600px) {
+    body {
+        height: 100vh;
+    }
+}
