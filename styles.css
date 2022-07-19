@@ -8,7 +8,7 @@
 }
 
 body {
-    background: linear-gradient(#4B0082, #20B2AA);
+    background-color: #4B0082;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,11 +129,4 @@ div {
 .paragraph {
     font-size: 14px;
     color: #777777;
-}
-
-@media (max-width: 600px) {
-    body {
-        height: 100vh;
-        margin-inline: auto
-    }
 }
