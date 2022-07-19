@@ -6,7 +6,11 @@
    
 <h2>:eyes: Demonstration <h2>
   
-![page](https://github.com/TamilaCambe/Convert-Money-JS/blob/main/assets/ezgif.com-gif-maker%20(2).gif)
+![page](https://github.com/TamilaCambe/Convert-Money-JS/blob/main/assets/Design%20sem%20nome%20(5).gif)
+ 
+ ## Explanation 📑
+ 
+ <p> It is a currency converter (Real to Dollar, Euro or Bitcoin). This project was made a little while ago and before that the quote values ​​were manually inserted into variables, but now it is consuming a quotes API that is updated every 30 seconds, so it returns the last occurrence of the selected currencies.<p>
    
 ## 💻 Technologies used
 
@@ -16,5 +20,7 @@
 
 * CSS;
    
-* JAVASCRIPT.
+* JavaScript;
+ 
+* Awesome API
 
