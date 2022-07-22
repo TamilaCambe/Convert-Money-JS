@@ -8,11 +8,11 @@
 }
 
 body {
-    background-color: #4B0082;
+    background-image: linear-gradient(225deg, #20B2AA, #4B0082);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 
 .container {
@@ -129,4 +129,10 @@ div {
 .paragraph {
     font-size: 14px;
     color: #777777;
+}
+
+@media(max-width: 600px) {
+    .container {
+        height: 100%;
+    }
 }
