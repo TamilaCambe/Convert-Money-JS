@@ -6,7 +6,7 @@
    
 <h2>Demonstração :eyes:<h2>
   
-![page](https://github.com/TamilaCambe/Convert-Money-JS/blob/main/assets/Design%20sem%20nome%20(5).gif)
+![page](https://github.com/TamilaCambe/Convert-Money-JS/blob/main/assets/ezgif.com-gif-maker%20(2).gif)
  
  ## Explicação 📑
  
