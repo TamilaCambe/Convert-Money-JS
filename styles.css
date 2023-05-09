@@ -8,11 +8,19 @@
 }
 
 body {
+<<<<<<< HEAD
     background: linear-gradient(#4B0082, #20B2AA);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+=======
+    background-image: linear-gradient(225deg, #20B2AA, #4B0082);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+>>>>>>> eaa13af437a3b9aed7dee68f60023c663fecb40f
 }
 
 .container {
@@ -111,12 +119,20 @@ section {
     gap: 10px
 }
 
+<<<<<<< HEAD
 .illust {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 7px;
     padding: 8px;
+=======
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+>>>>>>> eaa13af437a3b9aed7dee68f60023c663fecb40f
 }
 
 .currency-value {
@@ -130,4 +146,10 @@ section {
 .paragraph {
     font-size: 14px;
     color: #777777;
+}
+
+@media(max-width: 600px) {
+    .container {
+        height: 100%;
+    }
 }

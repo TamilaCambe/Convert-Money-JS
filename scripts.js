@@ -7,16 +7,22 @@ const convertValues = async() => {
     const realValueText = document.getElementById('real-value-text')
     const currencyValueText = document.getElementById('currency-value-text')
 
+<<<<<<< HEAD
     // async: avisando ao js que terá uma requisição assíncrona (ambos só funcionam dentro de função)
     // await: avisa ao js para parar e esperar o servidor retornar com os dados 
 
+=======
+>>>>>>> eaa13af437a3b9aed7dee68f60023c663fecb40f
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
 
     const dolar = data.USDBRL.high
     const euro = data.EURBRL.high
     const bitcoin = data.BTCBRL.high
 
+<<<<<<< HEAD
     console.log(data)
+=======
+>>>>>>> eaa13af437a3b9aed7dee68f60023c663fecb40f
 
     // realValueText.innerHTML = inputReais
 
