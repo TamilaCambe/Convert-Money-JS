@@ -21,7 +21,7 @@
         </header>
         <!-- A tag "main" é só para deixar o seu código mais semântico e organizado, ele indica qual é a área principal e não o conteúdo. Você pode incluir uma section para o "sobre" e outra para o "form" dentro do main sem problema algum. -->
         <main>
-            <label> Converter <b> de </b>
+            <label> Converter <b> de: </b>
     <select>
         <option>
          R$ Real Brasileiro 
@@ -29,7 +29,7 @@
     </select>
 </label>
 
-            <label> Converter <b> para </b>
+            <label> Converter <b> para: </b>
     <select id="currency-select">
         <option>
          US$ Dólar Americano 
@@ -43,21 +43,21 @@
     </select>
 </label>
 
-            <label> <b> Valor </b>
+            <label> <b> Valor: </b>
     <input id="input-real" placeholder="R$ 10.000,00">
 </label>
 
             <button id="convert-button" type="button"> Converter </button>
 
             <section>
-                <div>
+                <div class="illust">
                     <img src="./assets/brasil 2.png" alt="bandeira-Brazil">
                     <p class="currency-name"> Real </p>
                     <p class="currency-value" id="real-value-text"> R$ 0,00 </p>
                 </div>
-                <img src="./assets/Vector.png" alt="seta" class="arrow">
+                <img src="./assets/Vector.png" alt="seta" class="illust">
 
-                <div>
+                <div class="illust">
                     <img src="./assets/estados-unidos (1) 1.png" id="currency-img" alt="bandeira-EUA">
                     <p class="currency-name" id="currency-name"> Dólar Americano </p>
                     <p class="currency-value" id="currency-value-text"> US$ 0,00 </p>
